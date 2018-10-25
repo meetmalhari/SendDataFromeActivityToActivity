@@ -14,7 +14,7 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-
+Log.e("Inf o "," Malhari B Pawar");
         Bundle bundle=getIntent().getBundleExtra("Info");
         Dummy dummy=new Dummy();
         dummy=(Dummy) bundle.getSerializable("value");
